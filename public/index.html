@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="icon" href="./img/favicon/boy.jpg" sizes="16x16" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Coffee shop dnh</title>
         <link rel="stylesheet" href="output.css" type="text/css" />
+        <script src="./main.js" type="text/javascript" async></script>
     </head>
     <body>
         <div class="root">
-            <div class="content-wrapper max-w-screen-xl text-base mx-auto px-8 bg-slate-200">
-                <header class="py-6 mx-10">
-                    <nav class="flex flex-row justify-between items-center cursor-pointer">
+            <div
+                class="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8 bg-slate-200"
+            >
+                <header class="p-6 mx-auto">
+                    <nav class="flex flex-row justify-between items-center cursor-pointer relative">
                         <div
                             class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer"
                         >
                             CoffeeStyle.
                         </div>
                         <ul
-                            class="basis-3/6 flex items-center justify-end gap-8 uppercase text-sm text-gray-500 font-medium"
+                            id="dnh-top-menu"
+                            class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end gap-8 uppercase text-sm text-gray-500 font-medium"
                         >
                             <li class="dnh-top-menu-item">
                                 <a href="#" class=""> Home </a>
                             </li>
                             <li class="dnh-top-menu-item">
-                                <a href="#" class=""> Our Product </a>
+                                <a href="#" class=""> Product </a>
                             </li>
                             <li class="dnh-top-menu-item">
                                 <a href="#" class="">Blog </a>
@@ -34,9 +39,12 @@
                             <li class="dnh-top-menu-item">
                                 <a href="#" class=""> Contact </a>
                             </li>
+                            <li class="dnh-top-menu-item dnh-active">
+                                <a href="https://github.com/ngochaiisme" class=""> NgocHaiIsme </a>
+                            </li>
                         </ul>
                         <ul
-                            class="basis-1/6 flex justify-start ml-16 uppercase text-sm text-gray-500 font-medium"
+                            class="basis-3/6 justify-end flex lg:basis-1/6 lg:justify-start ml-16 uppercase text-sm text-gray-500 font-medium"
                         >
                             <li class="dnh-top-menu-item">
                                 <a href="#" class="flex items-center">
@@ -60,6 +68,25 @@
                                 </a>
                             </li>
                         </ul>
+                        <div
+                            class="basis-1/6 lg:hidden flex items-center justify-end cursor-pointer px-2 sm:px-4"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="dnh-icon"
+                                id="dnh-toggle-top-menu-icon"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                                />
+                            </svg>
+                        </div>
                     </nav>
                 </header>
                 <main>
