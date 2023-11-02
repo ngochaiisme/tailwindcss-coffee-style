@@ -1,117 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="icon" href="./img/favicon/boy.jpg" sizes="16x16" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Coffee shop dnh</title>
-        <link rel="stylesheet" href="output.css" type="text/css" />
-        <script src="./main.js" type="text/javascript" async></script>
-    </head>
-    <body>
-        <div class="root">
-            <div
-                class="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8 bg-slate-200"
+  <head>
+    <link rel="icon" href="./img/favicon/boy.jpg" sizes="16x16" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee shop dnh</title>
+    <link rel="stylesheet" href="output.css" type="text/css" />
+    <script src="./main.js" type="text/javascript" async></script>
+  </head>
+  <body>
+    <div class="root">
+      <div class="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8">
+        <header class="p-6 mx-auto">
+          <nav class="flex flex-row justify-between items-center cursor-pointer relative">
+            <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">CoffeeStyle.</div>
+            <ul
+              id="dnh-top-menu"
+              class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end gap-8 uppercase text-sm text-gray-500 font-medium"
             >
-                <header class="p-6 mx-auto">
-                    <nav class="flex flex-row justify-between items-center cursor-pointer relative">
-                        <div
-                            class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer"
-                        >
-                            CoffeeStyle.
-                        </div>
-                        <ul
-                            id="dnh-top-menu"
-                            class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end gap-8 uppercase text-sm text-gray-500 font-medium"
-                        >
-                            <li class="dnh-top-menu-item">
-                                <a href="#" class=""> Home </a>
-                            </li>
-                            <li class="dnh-top-menu-item">
-                                <a href="#" class=""> Product </a>
-                            </li>
-                            <li class="dnh-top-menu-item">
-                                <a href="#" class="">Blog </a>
-                            </li>
-                            <li class="dnh-top-menu-item">
-                                <a href="#" class=""> About </a>
-                            </li>
-                            <li class="dnh-top-menu-item">
-                                <a href="#" class=""> Contact </a>
-                            </li>
-                            <li class="dnh-top-menu-item dnh-active">
-                                <a href="https://github.com/ngochaiisme" class=""> NgocHaiIsme </a>
-                            </li>
-                        </ul>
-                        <ul
-                            class="basis-3/6 justify-end flex lg:basis-1/6 lg:justify-start ml-16 uppercase text-sm text-gray-500 font-medium"
-                        >
-                            <li class="dnh-top-menu-item">
-                                <a href="#" class="flex items-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke-width="1.5"
-                                        stroke="currentColor"
-                                        class="dnh-icon"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
-                                        />
-                                    </svg>
+              <li class="dnh-top-menu-item">
+                <a href="#" class="">Home</a>
+              </li>
+              <li class="dnh-top-menu-item">
+                <a href="#" class="">Product</a>
+              </li>
+              <li class="dnh-top-menu-item">
+                <a href="#" class="">Blog</a>
+              </li>
+              <li class="dnh-top-menu-item">
+                <a href="#" class="">About</a>
+              </li>
+              <li class="dnh-top-menu-item">
+                <a href="#" class="">Contact</a>
+              </li>
+              <li class="dnh-top-menu-item dnh-active">
+                <a href="https://github.com/ngochaiisme" class="">NgocHaiIsme</a>
+              </li>
+            </ul>
+            <ul
+              class="basis-3/6 justify-end flex lg:basis-1/6 lg:justify-start ml-16 uppercase text-sm text-gray-500 font-medium"
+            >
+              <li class="dnh-top-menu-item">
+                <a href="#" class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="dnh-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
 
-                                    <span class="mx-2">Cart</span>
-                                    <span class="dnh-badge-icon bg-orange-400 text-white">5</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div
-                            class="basis-1/6 lg:hidden flex items-center justify-end cursor-pointer px-2 sm:px-4"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke-width="1.5"
-                                stroke="currentColor"
-                                class="dnh-icon"
-                                id="dnh-toggle-top-menu-icon"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                                />
-                            </svg>
-                        </div>
-                    </nav>
-                </header>
-                <main>
-                    <div class="root">
-                        <div class="slider">Slider</div>
-                        <!--End slider-->
-                        <div class="story">Story</div>
-                        <!--End story-->
-                        <div class="featured-mugs">featured-mug</div>
-                        <!--End featured mugs-->
-                        <div class="more-products">more-products</div>
-                        <!--End more-porducts-->
-                        <div class="coffee-magazine">coffee-magazine</div>
-                        <!--End coffee-magazine-->
-                        <div class="lifestyle-stories">lifestyle stories</div>
-                        <!--End lifestyle-stories-->
-                        <div class="subcribe-us">subcribe-us</div>
-                        <!-- End subcribe-us -->
-                    </div>
-                </main>
-
-                <footer>footer</footer>
+                  <span class="mx-2">Cart</span>
+                  <span class="dnh-badge-icon bg-orange-400 text-white">5</span>
+                </a>
+              </li>
+            </ul>
+            <div class="basis-1/6 lg:hidden flex items-center justify-end cursor-pointer px-2 sm:px-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="dnh-icon"
+                id="dnh-toggle-top-menu-icon"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
             </div>
-            <!-- End content wrapper -->
-        </div>
-        <!-- End root -->
-    </body>
+          </nav>
+        </header>
+        <main>
+          <div class="root">
+            <div class="slider h-[530px] bg-[url('./img/slider_background.jpg')] bg-cover bg-bottom">
+              <div class="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-40">
+                <div class="text-white text-center">
+                  <div class="text-gray-300 uppercase mb-6 font-semibold">Best place to buy design</div>
+                  <div class="font-medium text-5xl mb-6">Coffee Mugs</div>
+                  <div class="font-medium text-lg mb-8">
+                    The most versatile furniture system ever created. Designed to fit your life, made to move and grow.
+                  </div>
+                  <div class="flex justify-center">
+                    <div
+                      class="uppercase bg-white text-gray-900 w-max tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-90"
+                    >
+                      Explore Our Products
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End slider-->
+            <div class="story">Story</div>
+            <!--End story-->
+            <div class="featured-mugs">featured-mug</div>
+            <!--End featured mugs-->
+            <div class="more-products">more-products</div>
+            <!--End more-porducts-->
+            <div class="coffee-magazine">coffee-magazine</div>
+            <!--End coffee-magazine-->
+            <div class="lifestyle-stories">lifestyle stories</div>
+            <!--End lifestyle-stories-->
+            <div class="subcribe-us">subcribe-us</div>
+            <!-- End subcribe-us -->
+          </div>
+        </main>
+
+        <footer>footer</footer>
+      </div>
+      <!-- End content wrapper -->
+    </div>
+    <!-- End root -->
+  </body>
 </html>
