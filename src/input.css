@@ -29,5 +29,9 @@
   @apply w-8 h-px bg-gray-200;
 }
 .dnh-subheadline-label {
-  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[13px] text-xs;
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs;
+}
+
+.dnh-button {
+  @apply text-center uppercase tracking-wider py-4 px-8 text-[13px] font-semibold cursor-pointer hover:bg-opacity-90;
 }
