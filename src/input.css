@@ -1,23 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* dnh = duong ngoc hai custom */
 .dnh-top-menu-item {
-    @apply cursor-pointer py-1 hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffee after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
+  @apply cursor-pointer py-1 hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
 }
 
 .dnh-badge-icon {
-    @apply text-xs text-center rounded-full px-1.5;
+  @apply text-xs text-center rounded-full px-1.5;
 }
 
 .dnh-icon {
-    @apply w-5 h-5 inline-block;
+  @apply w-5 h-5 inline-block;
 }
 .dnh-active {
-    @apply text-gray-950;
+  @apply text-gray-950;
 }
 .dnh-top-menu-expended {
-    @apply absolute top-10 z-50 w-full bg-white text-center animate-slideDown cursor-pointer;
+  @apply absolute top-10 z-50 w-full bg-white text-center animate-slideDown cursor-pointer;
+}
+
+.dnh-subheadline {
+  @apply flex justify-center items-center mb-24;
+}
+.dnh-subheadline-deco {
+  @apply w-8 h-px bg-gray-200;
+}
+.dnh-subheadline-label {
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[13px] text-xs;
 }
