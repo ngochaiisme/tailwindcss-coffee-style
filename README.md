@@ -1,3 +1,3 @@
 # Build static interface for website using Tailwind CSS
 
-Visit the project here: [Project Link](https://tailwindcss-deploy.web.app/)
+The project is not yet complete but you can still visit it at: [dnh-TailWind-CoffeeShop](https://tailwindcss-deploy.web.app/)
